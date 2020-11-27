@@ -1,0 +1,26 @@
+GIT 
+first of all using "https://git-scm.com/download/win" to download 
+1- how to use GIT
+    1- create a repo using your account
+    2- clone the repo "git clone URL"
+    3- if you make any change in the cloned repo 
+        1- git diff --> to know the changes
+        2- git status --> to know files that have changes
+        3- git branch --> to know what branch is used 
+        4- git checkout -b branchName --> to create and redirect to the new branch
+        5- git checkout branchName --> to redirect only to branch that already created
+        6- git add . --> to add all changes 
+        7- git commit -m "any message describe what changes you did"
+        8- git push origin branchName --> to push your changes to the branch 
+        9- git pull origin branchName --> to pull the new changes that happend on the branch
+        10- git merge origin branchName --> to merge the branch that you already on to branchName 
+        11- git reset --hard "number of commit"
+        12- git log
+
+2- if you already have a folder and you need to push it to new repo
+    1- create new repo from your account
+    2- git init 
+    3- git remote add origin 'your_url_name-hhtps'
+    4- git add .
+    5- git commit -m "message"
+    6- git push origin master
